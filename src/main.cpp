@@ -44,6 +44,11 @@
 
 #include <Arduino.h>
 
+// Defined pins
+const int valvePin = 0;                      // pin to control valve
+const int buttonPin = 1;                     // physical push button
+const int moistureSensorPin = A0;            // pin for moisture sensor
+
 void setup() {
   // put your setup code here, to run once:
 
