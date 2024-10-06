@@ -44,10 +44,15 @@
 
 #include <Arduino.h>
 
-// Defined pins
-const int valvePin = 0;                      // pin to control valve
-const int buttonPin = 1;                     // physical push button
-const int moistureSensorPin = A0;            // pin for moisture sensor
+// Define pins
+const int valvePin = 0;                           // pin to control valve
+const int buttonPin = 1;                          // physical push button
+const int moistureSensorPin = A0;                 // pin for moisture sensor
+
+// Define threshold and timings
+const int moistureThreshold = 300;                // threshold value
+const unsigned long valveActiveDuration = 60000;  // valve active time in milliseconds
+const unsigned long initDelay = 5000;             // intialization delay in milliseconds
 
 void setup() {
   // put your setup code here, to run once:
