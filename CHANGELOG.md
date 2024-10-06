@@ -1,8 +1,10 @@
 #Changelog
 
-## v0.1.0a (2024-10-05)
+## v0.2.0a (2024-10-06)
 - **➕:** threshold and timings values
 - **➕:** pins for valve and moisture sensor
+
+## v0.1.0a (2024-10-05)
 - **➕:** comments to reflect board being used
 - **➕:** PlatformIO
 
