@@ -54,6 +54,21 @@ const int moistureThreshold = 300;                // threshold value
 const unsigned long valveActiveDuration = 60000;  // valve active time in milliseconds
 const unsigned long initDelay = 5000;             // intialization delay in milliseconds
 
+// define states
+enum State {
+  INIT,
+  IDLE,
+  VALVE_ACTIVE,
+  VALVE_REST,
+  SHUTDOWN
+};
+
+// initial state
+State currentState = INIT;
+
+// time variable
+unsigned long stateStartTime = 0;
+
 void setup() {
   // put your setup code here, to run once:
 
