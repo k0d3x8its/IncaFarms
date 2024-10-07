@@ -1,7 +1,8 @@
 #Changelog
 
 ## v0.2.0a (2024-10-06)
-
+- **➕:** different states
+- **➕:** timing variable
 
 ## v0.1.0a (2024-10-05)
 - **➕:** threshold and timings values
