@@ -1,5 +1,10 @@
 #Changelog
 
+## v0.3.0a (2024-10-09)
+- **➕:** declarations for valve, button, and sensor
+- **➕:** the valve to be closed during startup
+- **➕:** serial communication for debugging
+
 ## v0.2.0a (2024-10-06)
 - **➕:** different states
 - **➕:** timing variable
