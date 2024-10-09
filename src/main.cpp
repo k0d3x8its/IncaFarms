@@ -70,8 +70,15 @@ State currentState = INIT;
 unsigned long stateStartTime = 0;
 
 void setup() {
-  // put your setup code here, to run once:
+  pinMode(valvePin, OUTPUT);
+  pinMode(buttonPin, INPUT_PULLUP);
+  pinMode(moistureSensorPin, INPUT);
 
+  // Start with valve closed
+  digitalWrite(valvePin, LOW);
+
+  // Begin serial communication for debugging
+  Serial.begin(115200);
 }
 
 void loop() {
