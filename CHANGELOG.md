@@ -1,5 +1,8 @@
 #Changelog
 
+## V0.4.0a (2024-10-12)
+- **➕:** button to shutdown system
+
 ## v0.3.0a (2024-10-09)
 - **➕:** declarations for valve, button, and sensor
 - **➕:** the valve to be closed during startup
