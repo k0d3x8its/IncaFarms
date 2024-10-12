@@ -1,6 +1,6 @@
 /******************************************************************************
 * + Project: IncaFarms                                                        *
-* + Version: 0.2.0a                                                           *
+* + Version: 0.4.0a                                                           *
 * + Description: This is a smart irrigation system                            *
 * + Board: ESP32 Feather V1                                                   *
 * + Sensor: N/A                                                               *
