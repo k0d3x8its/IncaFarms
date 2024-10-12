@@ -82,6 +82,8 @@ void setup() {
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
-
+  // Check if the button is pressed for shutdown
+  if (digitalRead(buttonPin) == LOW) {
+    currentState = SHUTDOWN
+  }
 }
