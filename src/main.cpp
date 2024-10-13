@@ -1,6 +1,6 @@
 /******************************************************************************
 * + Project: IncaFarms                                                        *
-* + Version: 0.4.0a                                                           *
+* + Version: 0.4.1a                                                           *
 * + Description: This is a smart irrigation system                            *
 * + Board: ESP32 Feather V1                                                   *
 * + Sensor: N/A                                                               *
@@ -84,6 +84,6 @@ void setup() {
 void loop() {
   // Check if the button is pressed for shutdown
   if (digitalRead(buttonPin) == LOW) {
-    currentState = SHUTDOWN
-  }
+    currentState = SHUTDOWN;
+  } 
 }
