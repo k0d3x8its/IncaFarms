@@ -1,5 +1,8 @@
 #Changelog
 
+## V0.4.1a (2024-10-12)
+- **🛠️:** if statement missing a semicolon
+
 ## V0.4.0a (2024-10-12)
 - **➕:** button to shutdown system
 
